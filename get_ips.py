@@ -11,7 +11,7 @@ def get_ips(row):
         if len(row) == 3:
             row.append(addrs)
         elif len(row) == 4:
-            row[4] = addrs
+            row[3] = addrs
     except:
         if len(row) == 3:
             row.append('')
