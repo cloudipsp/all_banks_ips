@@ -8648,3 +8648,7 @@
 "www.bancatlan.hn","443","hn","['200.3.194.20']"
 "www.redfcu.org","443","us","['72.3.187.224']"
 "www.bancolombiacayman.com","443","ky","['169.45.141.185']"
+"mabanque.bnpparibas","443","fr","['159.50.188.20', '159.50.187.79']"
+"particuliers.societegenerale.fr","443","fr","['193.178.154.156']"
+"particuliers.secure.lcl.fr","443","fr","['158.191.169.222']"
+"www.bred.fr","443","fr","['91.220.246.35']"
