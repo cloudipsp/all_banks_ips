@@ -22,7 +22,7 @@ if __name__ == "__main__":
         reader = csv.reader(csvFile, delimiter=',', quotechar='"')
         if args.country:
             reader = filter( lambda x: x[2] in args.country, reader)
-	for row in reader:
+        for row in reader:
             ret = get_ips.get_ips(row)
             out.writelines([ip + os.linesep for ip in ret[3]])
     
